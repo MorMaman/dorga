@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.149d4110.css",
-    "main.js": "/static/js/main.c0c9f48e.js",
-    "static/js/453.0518a082.chunk.js": "/static/js/453.0518a082.chunk.js",
-    "static/media/dorgaIcon.png": "/static/media/dorgaIcon.52d9805c383c0bd0785d.png",
-    "static/media/dor-drink.gif": "/static/media/dor-drink.8fa07c732248e09501fa.gif",
-    "static/media/beer.png": "/static/media/beer.f7f8c3334eacb3ce46d4.png",
-    "index.html": "/index.html",
-    "main.149d4110.css.map": "/static/css/main.149d4110.css.map",
-    "main.c0c9f48e.js.map": "/static/js/main.c0c9f48e.js.map",
-    "453.0518a082.chunk.js.map": "/static/js/453.0518a082.chunk.js.map"
+    "main.css": "/dorga/static/css/main.149d4110.css",
+    "main.js": "/dorga/static/js/main.205e2bcc.js",
+    "static/js/453.0518a082.chunk.js": "/dorga/static/js/453.0518a082.chunk.js",
+    "static/media/dorgaIcon.png": "/dorga/static/media/dorgaIcon.52d9805c383c0bd0785d.png",
+    "static/media/dor-drink.gif": "/dorga/static/media/dor-drink.8fa07c732248e09501fa.gif",
+    "static/media/beer.png": "/dorga/static/media/beer.f7f8c3334eacb3ce46d4.png",
+    "index.html": "/dorga/index.html",
+    "main.149d4110.css.map": "/dorga/static/css/main.149d4110.css.map",
+    "main.205e2bcc.js.map": "/dorga/static/js/main.205e2bcc.js.map",
+    "453.0518a082.chunk.js.map": "/dorga/static/js/453.0518a082.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.149d4110.css",
-    "static/js/main.c0c9f48e.js"
+    "static/js/main.205e2bcc.js"
   ]
 }
