@@ -3,6 +3,8 @@ import "./App.css";
 import dorgaIcon from "./dorgaIcon.png";
 import beer from "./beer.png";
 import dorDrink from "./dor-drink.gif";
+import { Howl } from "howler";
+import winSoundFile from "./win-sound.mp3"; // Ensure you have a sound file
 
 const App = () => {
   const [gridSize, setGridSize] = useState(3);
@@ -13,9 +15,19 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   const [randomIndex, setRandomIndex] = useState(null);
 
+  const winSound = new Howl({
+    src: [winSoundFile],
+  });
+
   useEffect(() => {
     resetGame();
   }, [gridSize]);
+
+  useEffect(() => {
+    if (gameOver) {
+      winSound.play();
+    }
+  }, [gameOver]);
 
   const handleClick = (index) => {
     if (index === randomIndex) {
